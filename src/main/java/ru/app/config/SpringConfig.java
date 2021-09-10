@@ -15,9 +15,9 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-//@EnableJpaRepositories("edu.segeyrozhkov.crud.app.repository")
+//@EnableJpaRepositories("ru.app.repository")
 //@EnableTransactionManagement
-@PropertySource("classpath:db.properties")
+//@PropertySource("classpath:db.properties")
 @ComponentScan("ru.app")
 @EnableWebMvc
 
